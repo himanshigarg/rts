@@ -1,7 +1,5 @@
-import ReactDOM from "react-dom";
-import GuestList from "./state/GuestList";
-import UserSearch from "./refs/UserSearch";
-import EventComponent from "./events/EventComponent";
+import ReactDOM from 'react-dom';
+import UserSearch from './refs/UserSearch';
 
 const App = () => {
   return (
@@ -11,4 +9,4 @@ const App = () => {
   );
 };
 
-ReactDOM.render(<App />, document.querySelector("#root"));
+ReactDOM.render(<App />, document.querySelector('#root'));

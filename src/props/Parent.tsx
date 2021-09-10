@@ -1,15 +1,18 @@
-import { ChildAsFC } from "./Child";
+import { ChildAsFC } from './Child';
 
 const Parent = () => {
   return (
-    <ChildAsFC
-      color="red"
-      onClick={() => {
-        console.log("clicked");
-      }}
-    >
-      sdjlf
-    </ChildAsFC>
+    <>
+      {/* <Child>sdfls</Child> */}
+      <ChildAsFC
+        color='red'
+        onClick={() => {
+          console.log('clicked');
+        }}
+      >
+        sdjlf
+      </ChildAsFC>
+    </>
   );
 };
 
